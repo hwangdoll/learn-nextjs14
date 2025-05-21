@@ -2,15 +2,13 @@ import { Suspense } from "react";
 import MovieInfo from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
 
-type PageProps {
+type PageProps = {
   params: {
     id: string;
   };
-}
+};
 
-export default async function MovieDetail({
-  params: { id }
-}: PageProps) {
+export default async function MovieDetail({ params: { id } }: PageProps) {
   return (
     <div>
       <Suspense fallback={<h1>Loading movie info...</h1>}>
