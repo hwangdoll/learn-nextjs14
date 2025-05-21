@@ -8,7 +8,9 @@ interface MobieDetailParam {
   };
 }
 
-export default async function MovieDetail({ params: { id } }) {
+export default async function MovieDetail({
+  params: { id },
+}: MobieDetailParam) {
   return (
     <div>
       <Suspense fallback={<h1>Loading movie info...</h1>}>
