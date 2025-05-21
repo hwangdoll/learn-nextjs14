@@ -1,0 +1,68 @@
+# Dependency directories
+node_modules/
+.git/
+# Next.js build output
+.next/
+out/
+
+# Production build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Optional cache directories
+.npm/
+.cache/
+.next/cache/
+
+# Mac Trash
+.Trashes
+
+# Windows system files
+ehthumbs.db
+Desktop.ini
+
+# Storybook (if used)
+storybook-static/
+
+# Local serverless functions
+.vercel/
+
+# SWC compiled binary (if accidentally added)
+**/next-swc*.node
+
+#clon 제거
+learn-nextjs14.git
