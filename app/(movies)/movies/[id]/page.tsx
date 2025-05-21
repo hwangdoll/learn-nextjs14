@@ -8,7 +8,11 @@ type PageProps = {
   };
 };
 
-export default async function MovieDetail({ params: { id } }: PageProps) {
+export default async function MovieDetail(props: PageProps) {
+  const {
+    params: { id },
+  } = props;
+
   return (
     <div>
       <Suspense fallback={<h1>Loading movie info...</h1>}>
